@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+            <header>
+                <h1>Agenda de Contatos</h1>
+            </header>
+        <form id="form-contato">
+            <input id="nome" type="text" required placeholder="Nome do contato" title="Digite o nome do contato" />
+            <input id="telefone" type="number" required placeholder="Telefone de contato" title="(XX) XXXXX-XXXX"/>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table id="tabelaContatos" cellspacing="0"> <!-- Tag tabela --> <!-- cellspacing (Remover o espaço entre as tabelas) -->
+            <thead> <!-- Tag cabeçalho -->
+                <tr> <!--Tag definir linha -->
+                    <th>Nome </th> <!-- Tag definir cabeçalho -->
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Tag corpo -->
+    
+            </tbody>
+            
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
