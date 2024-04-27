@@ -1,4 +1,4 @@
-# Chicago Bulls - Fan site
+# Agenda de Contatos
 
 Projeto para estudo de tecnologias web como: HTML, CSS e JavaScript.
 
