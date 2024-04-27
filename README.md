@@ -2,6 +2,8 @@
 
 Projeto para estudo de tecnologias web como: HTML, CSS e JavaScript.
 
+Uma agenda simples que adiciona o nome e onúmero do contato em uma lista.
+
 
 ### 📋 Pré-requisitos
 
